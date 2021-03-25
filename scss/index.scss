@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;600&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+$main-color: #f3be00;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.Home {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/pexels-andrea-piacquadio-761963.jpg") no-repeat fixed
+    center;
+  background-size: cover;
+}
+
+.home-nav {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 61.2%;
+}
+
+.nav-headings {
+  width: 38%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+
+  ul {
+    margin-left: 8px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    li {
+      font-size: 3vh;
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+          padding: 5px;
+          border-radius: 10px;
+          background-color: black;
+          color: #f9960c;
+        }
+
+        &:active {
+          background-color: white;
+        }
+
+        transition: all 0.1s ease-in;
+      }
+    }
+  }
+}
+
+.home-main {
+  width: 40%;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+
+  .wrapper {
+    width: 80%;
+    padding: 110px 0;
+    margin-right: 15px;
+    z-index: 1;
+
+    h2 {
+      font-size: 80px;
+    }
+
+    p {
+      padding: 50px 0;
+      font-size: 32px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border-radius: 12px;
+      background: #f9960c;
+      border: none;
+      outline: none;
+      font-size: 32px;
+      font-weight: 600;
+
+      &:hover {
+        background-color: black;
+        transform: scale(0.9);
+        transition: all 0.2s ease;
+        text-decoration: underline;
+        color: #f9960c;
+      }
+    }
+  }
+}
+
+.big-star {
+  overflow: hidden;
+  position: absolute;
+  bottom: -5%;
+  left: 3%;
+  img {
+    width: 23%;
+  }
+}
+
+.small-star {
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+}
