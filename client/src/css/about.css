@@ -51,7 +51,12 @@
   background-repeat: no-repeat;
 }
 
+.about-sec h2 {
+  z-index: 2;
+}
+
 .about-sec p {
+  z-index: 2;
   padding-top: 40px;
   font-size: 32px;
 }

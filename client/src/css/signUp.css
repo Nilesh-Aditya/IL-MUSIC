@@ -3,3 +3,112 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.78) -11.16%, #f3be00 16.6%);
   min-height: 100vh;
 }
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  min-height: 86.8vh;
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 2;
+  color: #000000;
+}
+
+.content .quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  width: 50%;
+  margin: 25% auto 0px;
+  text-align: center;
+}
+
+.content .quote p span {
+  display: inline-block;
+  width: 100%;
+}
+
+.content form {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+}
+
+.content form .form-wrap {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(125, 125, 0, 0.2)), to(rgba(125, 125, 0, 0.2))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/signin/autumn5.jpg") no-repeat fixed center;
+  background: linear-gradient(rgba(125, 125, 0, 0.2), rgba(125, 125, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/signin/autumn5.jpg") no-repeat fixed center;
+  color: white;
+  width: 78%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7%;
+  border-radius: 27px;
+  z-index: 2;
+}
+
+.content form .form-wrap .name,
+.content form .form-wrap .email,
+.content form .form-wrap .password,
+.content form .form-wrap .join-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 30px;
+}
+
+.content form .form-wrap .name input,
+.content form .form-wrap .email input,
+.content form .form-wrap .password input,
+.content form .form-wrap .join-btn input {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+}
+
+.content form .form-wrap .join-btn {
+  margin-top: 10px;
+}
+
+.content form .form-wrap button {
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+  background: rgba(249, 150, 12, 0.87);
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}

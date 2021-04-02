@@ -36,8 +36,11 @@
   text-align: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-
+  h2 {
+    z-index: 2;
+  }
   p {
+    z-index: 2;
     padding-top: 40px;
     font-size: 32px;
   }

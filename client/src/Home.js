@@ -8,7 +8,7 @@ const Home = () => {
     const history = useHistory();
     
     const pushToSignIn = e => {
-        history.push('/login');
+        history.push('/signUp');
     }
 
     return ( 
@@ -22,7 +22,7 @@ const Home = () => {
 
             <nav className="home-nav">
                 <Navbar />
-            </nav>    
+            </nav>
 
             <main className="home-main">
                 <div className="wrapper">
