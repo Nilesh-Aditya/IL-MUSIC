@@ -52,7 +52,7 @@
 .content form .form-wrap {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(125, 125, 0, 0.2)), to(rgba(125, 125, 0, 0.2))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/signin/autumn5.jpg") no-repeat fixed center;
   background: linear-gradient(rgba(125, 125, 0, 0.2), rgba(125, 125, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/signin/autumn5.jpg") no-repeat fixed center;
-  color: white;
+  color: #f9960c;
   width: 78%;
   height: 85%;
   display: -webkit-box;

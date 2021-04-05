@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from './About';
 import Login from './Login';
 import SignUp from './SignUp';
+import Music from './music';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path = "/signUp">
             <SignUp />
+          </Route>
+          <Route exact path="/music">
+            <Music />
           </Route>
         </Switch>
       </div>

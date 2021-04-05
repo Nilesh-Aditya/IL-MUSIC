@@ -3,9 +3,6 @@ import Navbar from "./components/navbar"
 import './css/signUp.css'
 
 const SignUp = () => {
-    const quote =  `with the right music ,
-                    you either forget everything or 
-                    you remember everything`;
 
     return (
         <div className="signup">

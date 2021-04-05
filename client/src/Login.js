@@ -1,12 +1,14 @@
-import LeafCall from "./components/leaf"
+import { useHistory } from "react-router";
 import Navbar from "./components/navbar"
 import './css/login.css'
 
 const Login = () => {
 
-    const quote =  `with the right music ,
-                    you either forget everything or 
-                    you remember everything`;
+    const history = useHistory();
+
+    const pushToMusic = () => {
+        history.push('/music');
+    };
 
     return (
         <div className="login">
@@ -37,7 +39,7 @@ const Login = () => {
                         />
                     </div>
                     <div className="log-btn">
-                        <button type="submit">Login</button>
+                        <button type="submit" onClick={pushToMusic}>Login</button>
                     </div>
                 </form>
             </div>
