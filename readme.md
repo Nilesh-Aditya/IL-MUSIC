@@ -22,8 +22,6 @@ $ npm start
 
 ---
 
-` `
-
 ### 3. start the client
 
 ```bash
